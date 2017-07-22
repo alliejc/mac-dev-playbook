@@ -1,0 +1,52 @@
+dotfiles_repo: https://github.com/josmo/dotfiles.git
+dotfiles_repo_local_destination: ~/workspace/GitHub/dotfiles
+
+homebrew_installed_packages:
+  - git
+  - go
+  - node
+  - wget
+  - zsh
+  - zsh-completions
+  - autoconf
+  - gpg
+  - mcrypt
+  - nmap
+  - nvm
+  - openssl
+  - jq
+
+homebrew_cask_apps:
+  - docker
+  - dropbox
+  - google-chrome
+  - slack
+  - 1password
+  - charles
+  - spotify
+  - arq
+  - amazon-drive
+  - transmission
+  - flux
+  - ngrok
+  - vlc
+  - screenhero
+  - jetbrains-toolbox
+  - android-platform-tools
+  - android-studio
+  - atom
+  - microsoft-office
+  - parallels-desktop
+  - charles
+  - sourcetree
+  - gitkraken
+
+
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1107828211, name: "ScreenFlow 6" }
+  - { id: 947578651, name: "djay Pro" }
+  - { id: 540107482, name: "DiverLog Lite" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 568494494, name: "Pocket" }
+
