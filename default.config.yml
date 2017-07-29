@@ -6,43 +6,37 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/josmo/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Documents/workspace/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
   - .inputrc
   - .osx
   - .vimrc
-
+  - .anyconnect
+  - .gitignore_global
+  - .profile
+  - .zshrc
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
-  - bash-completion
   - chromedriver
+  - cowsay
   - doxygen
-  - gettext
-  - gifsicle
   - git
   - go
   - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
+  - jq
   - mcrypt
   - nmap
   - node
   - nvm
   - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
-  - pv
   - wget
-  - wrk
+  - zsh
+  - zsh-completions
 
 homebrew_taps:
   - homebrew/core
@@ -53,24 +47,48 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - docker
   - dropbox
-  # - fing # Download link keeps getting changed, d'oh!
-  - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - limechat
-  - macvim
-  - nvalt
-  - sequel-pro
-  - skitch
   - slack
-  - sublime-text
-  - transmit
-  - vagrant
-  - virtualbox
+  - 1password
+  - charles
+  - spotify
+  - arq
+  - amazon-drive
+  - transmission
+  - flux
+  - ngrok
+  - vlc
+  - screenhero
+  - jetbrains-toolbox
+  - android-platform-tools
+  - android-studio
+  - atom
+  - microsoft-office
+  - parallels-desktop
+  - charles
+  - sourcetree
+  - gitkraken
+  - insync
+  - freemind
+  - gitter
+  - cyberduck
+  - kdiff3
+  - kitematic
+  - secure-pipes
+  - jxplorer
+  - zoomus
+  - textmate
+  - touchswitcher
+  - music-manager
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1107828211, name: "ScreenFlow 6" }
+  - { id: 947578651, name: "djay Pro" }
+  - { id: 540107482, name: "DiverLog Lite" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 568494494, name: "Pocket" }
 mas_email: ""
 mas_password: ""
 
