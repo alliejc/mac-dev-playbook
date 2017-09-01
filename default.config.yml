@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - nvm
   - ssh-copy-id
   - openssl
+  - terraform
   - wget
   - zsh
   - zsh-completions
