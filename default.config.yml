@@ -64,7 +64,6 @@ homebrew_cask_apps:
   - android-studio
   - atom
   - microsoft-office
-  - parallels-desktop
   - charles
   - sourcetree
   - gitkraken
