@@ -59,7 +59,6 @@ homebrew_cask_apps:
   - flux
   - ngrok
   - vlc
-  - screenhero
   - jetbrains-toolbox
   - android-platform-tools
   - android-studio
