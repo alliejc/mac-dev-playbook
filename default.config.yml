@@ -8,7 +8,7 @@ configure_osx: yes
 
 dotfiles_repo: https://github.com/josmo/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Documents/workspace/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Development/workspace/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
@@ -88,6 +88,7 @@ mas_installed_apps:
   - { id: 540107482, name: "DiverLog Lite" }
   - { id: 405399194, name: "Kindle" }
   - { id: 568494494, name: "Pocket" }
+  - { id: 1278508951, name: "Trello" }
 mas_email: ""
 mas_password: ""
 
