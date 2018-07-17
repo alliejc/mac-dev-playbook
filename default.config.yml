@@ -48,14 +48,12 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
   - docker
-  - dropbox
   - google-chrome
   - slack
   - 1password
   - charles
   - spotify
   - arq
-  - amazon-drive
   - transmission
   - flux
   - ngrok
