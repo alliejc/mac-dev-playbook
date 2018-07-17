@@ -21,7 +21,6 @@ dotfiles_files:
   - .zshrc
 homebrew_installed_packages:
   - autoconf
-  - chromedriver
   - cowsay
   - doxygen
   - git
@@ -43,16 +42,16 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
-  - docker
+  - docker-edge
   - google-chrome
   - slack
   - 1password
   - charles
-  - spotify
   - arq
   - transmission
   - flux
