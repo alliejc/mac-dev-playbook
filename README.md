@@ -39,25 +39,25 @@ You can override any of the defaults configured in `default.config.yml` by creat
       - cowsay
       - git
       - go
-
+    
     mas_installed_apps:
       - { id: 443987910, name: "1Password" }
       - { id: 498486288, name: "Quick Resizer" }
       - { id: 557168941, name: "Tweetbot" }
       - { id: 497799835, name: "Xcode" }
-
+    
     composer_packages:
       - name: hirak/prestissimo
       - name: drush/drush
         version: '^8.1'
-
+    
     gem_packages:
       - name: bundler
         state: latest
-
+    
     npm_packages:
       - name: webpack
-
+    
     pip_packages:
       - name: mkdocs
 
@@ -67,6 +67,8 @@ Any variable can be overridden in `config.yml`; see the supporting roles' docume
 
 
 My [dotfiles](https://github.com/josmo/dotfiles) are also installed into the current user's home directory, including the `.osx` dotfile for configuring many aspects of macOS for better performance and ease of use. You can disable dotfiles management by setting `configure_dotfiles: no` in your configuration.
+
+
 
 Finally, there are a few other preferences and settings added on for various apps and services.
 
@@ -115,4 +117,4 @@ Check out [Ansible for DevOps](https://www.ansiblefordevops.com/), which teaches
 
 ## Author
 
-[Jeff Geerling](http://www.jeffgeerling.com/), 2014 (originally inspired by [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)).
+[Jeff Geerling](https://www.jeffgeerling.com/), 2014 (originally inspired by [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)).
