@@ -77,6 +77,7 @@ homebrew_cask_apps:
   - textmate
   - touchswitcher
   - music-manager
+  - mysqlworkbench
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
