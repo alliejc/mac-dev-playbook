@@ -34,7 +34,6 @@ homebrew_installed_packages:
   - php
   - ssh-copy-id
   - openssl
-  - terraform
   - wget
   - zsh
   - zsh-completions
@@ -47,47 +46,31 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
-  - docker-edge
-  - google-chrome
   - slack
   - 1password
   - charles
   - arq
   - transmission
-  - flux
-  - ngrok
   - vlc
   - jetbrains-toolbox
   - android-platform-tools
-  - android-studio
   - atom
-  - microsoft-office
   - charles
-  - sourcetree
+  - tower
   - gitkraken
   - insync
   - freemind
   - gitter
-  - cyberduck
   - kdiff3
-  - kitematic
-  - secure-pipes
-  - jxplorer
   - zoomus
-  - textmate
+  - alfred
   - touchswitcher
-  - music-manager
   - mysqlworkbench
   - secure-pipes
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
-  - { id: 1107828211, name: "ScreenFlow 6" }
-  - { id: 947578651, name: "djay Pro" }
-  - { id: 540107482, name: "DiverLog Lite" }
-  - { id: 405399194, name: "Kindle" }
-  - { id: 568494494, name: "Pocket" }
   - { id: 1278508951, name: "Trello" }
 mas_email: ""
 mas_password: ""
