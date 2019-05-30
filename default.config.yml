@@ -33,31 +33,34 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - google-chrome
+  - iterm2
   - slack
+  - keybase
+  - sketch
+  - abstract
+  - kaleidoscope
   - 1password
   - charles
   - arq
-  - transmission
   - vlc
   - jetbrains-toolbox
+  - appcode
+  - android-studio
+  - android-platform-tools
+  - android-sdk
   - android-platform-tools
   - atom
   - charles
   - tower
-  - gitkraken
-  - insync
-  - freemind
-  - gitter
-  - kdiff3
   - zoomus
-  - alfred
   - touchswitcher
+  - marshallofsound-google-play-music-player
+  - mcgimp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
-  - { id: 1278508951, name: "Trello" }
 mas_email: ""
 mas_password: ""
 
