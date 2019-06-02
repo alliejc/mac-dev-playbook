@@ -44,8 +44,6 @@ homebrew_cask_apps:
   - arq
   - vlc
   - jetbrains-toolbox
-  - appcode
-  - android-studio
   - android-platform-tools
   - android-sdk
   - atom
