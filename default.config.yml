@@ -33,26 +33,18 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - google-chrome
   - slack
   - keybase
   - sketch
   - abstract
-  - kaleidoscope
-  - 1password
   - charles
-  - arq
-  - vlc
   - jetbrains-toolbox
-  - android-platform-tools
-  - android-sdk
-  - atom
-  - charles
   - tower
   - zoomus
-  - touchswitcher
-  - marshallofsound-google-play-music-player
-  - mcgimp
+  - sublime-text
+  - 1password
+  - adobe-creative-cloud
+  - krisp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
